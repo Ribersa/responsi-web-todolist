@@ -46,38 +46,39 @@ Pastikan komputer Anda sudah terinstall:
 - Node.js & NPM
 - Database MySQL (XAMPP/Laragon)
 
-### 2. Clone Repository
-Buka terminal (CMD/Git Bash), lalu jalankan:
+### Langkah-Langkah:
 ```bash
-git clone [https://github.com/USERNAME_GITHUB_ANDA/NAMA_REPOSITORY.git](https://github.com/USERNAME_GITHUB_ANDA/NAMA_REPOSITORY.git)
-cd nama_folder_project
+2. Clone Repository
+Buka terminal (CMD/Git Bash), lalu jalankan:
+- git clone https://github.com/Ribersa/responsi-web-todolist
+- cd responsi-web-todolist
 
-### 3. Install Dependencies
-composer install
-npm install
+3. Install Dependencies
+- composer install
+- npm install
 
-### 4. Konfigurasi Environment
+4. Konfigurasi Environment
 - Salin file `.env.example` menjadi `.env`
 - Sesuaikan pengaturan database di file `.env`:
-# DB_CONNECTION=mysql
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=db_todolist  <-- Pastikan nama ini sesuai dengan DB yang Anda buat
-# DB_USERNAME=root
-# DB_PASSWORD=
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_todolist
+DB_USERNAME=root
+DB_PASSWORD=
 
-### 5. Generate Application Key
-php artisan key:generate
-php artisan migrate
+5. Generate Application Key
+- php artisan key:generate
+- php artisan migrate
 
-### 6. Setup Penyimpanan Gambar
-php artisan storage:link
+6. Setup Penyimpanan Gambar
+- php artisan storage:link
 
-### 7. Build Assets
-npm run build
+7. Build Assets
+- npm run build
 
-### 8. Jalankan Server Lokal
-php artisan serve
-Buka browser dan akses: `http://localhost:8000`
+8. Jalankan Server Lokal
+- php artisan serve
+- Buka browser dan akses: `http://localhost:8000`
 
 ---
