@@ -36,6 +36,21 @@ Aplikasi Manajemen Tugas (To-Do List) berbasis web yang dibangun menggunakan **L
 
 ---
 
+## 📸 Tampilan Aplikasi (Preview)
+
+Berikut adalah tampilan antarmuka dari aplikasi To-Do List:
+
+<p align="center">
+  <img src="screenshots/login.png" alt="Halaman Login" width="45%">
+  <img src="screenshots/dashboard.png" alt="Dashboard Tugas" width="45%">
+</p>
+<p align="center">
+  <img src="screenshots/profil.png" alt="Edit Profil" width="45%">
+  <img src="screenshots/settings.png" alt="Pengaturan" width="45%">
+</p>
+
+---
+
 ## 🚀 Panduan Instalasi (Step-by-Step)
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal (Localhost):
